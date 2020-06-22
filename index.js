@@ -22,7 +22,7 @@
 // TODO: ADD CODE HERE
 
 const week3Assignment = "web-basics-2-week-1";
-console.log(week3Assignment);
+console.log(`${week3Assignment}`);
 
 /* Challenge #2
  * Create variables for your first and last name then print your full name
@@ -39,7 +39,7 @@ console.log(week3Assignment);
 
 const firstName = "Dejan";
 const lastName = "Pantelic";
-console.log(firstName + " " + lastName);
+console.log(`${firstName} ${lastName}`);
 
 /* Challenge #3
  * Calculate the total price rounded to two decimals
@@ -58,7 +58,7 @@ console.log(firstName + " " + lastName);
 const price = 4.99;
 const quantity = 15;
 const total = price * quantity;
-console.log(Math.round(total));
+console.log(total.toFixed(2));
 
 /* Challenge #4
  * Declare a variable and conditionally assign it a value
